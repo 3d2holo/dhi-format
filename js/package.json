@@ -1,0 +1,8 @@
+{
+  "name": "dhi-format-js",
+  "private": true,
+  "workspaces": [
+    "encoder",
+    "decoder"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@dhi-format/decoder",
+  "version": "0.1.0",
+  "description": "JavaScript decoder library for dhi-format",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "keywords": [
+    "dhi",
+    "hologram",
+    "multiview",
+    "vr",
+    "ar",
+    "decoder"
+  ],
+  "license": "MIT"
+}

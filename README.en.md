@@ -121,3 +121,12 @@ In the future, `dhi-format` could be extended to support:
 ## Summary
 
 `dhi-format` is an image format designed for multi-view holographic content. It supports both single-angle images and collections of images captured or rendered from multiple angles, while also supporting an `Alpha` channel. It is well suited for `VR/AR`, digital holography, glasses-free `3D`, and `3D lenticular` applications that require spatial display and multi-view representation.
+
+## JavaScript Libraries
+
+The repository now includes a [js/README.md](/home/zbj/dhi-format/js/README.md) directory for JavaScript-related libraries:
+
+- [js/encoder](/home/zbj/dhi-format/js/encoder): encoder library
+- [js/decoder](/home/zbj/dhi-format/js/decoder): decoder library
+
+These two libraries currently provide a clean project skeleton and a minimal API surface, making it easier to evolve toward a real binary encoder/decoder implementation later.

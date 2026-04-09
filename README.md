@@ -121,3 +121,12 @@
 ## 总结
 
 `dhi-format` 是一种为多视角全息图像设计的图片格式。它既支持单角度图像，也支持多个角度的图像集合，并支持 `Alpha` 通道，适用于 `VR/AR`、数字全息、裸眼 `3D`、`3D lenticular` 等需要空间显示和多视点表达的领域。
+
+## JavaScript Libraries
+
+仓库中已经新增 [js/README.md](/home/zbj/dhi-format/js/README.md) 目录，用于放置 `dhi-format` 的 JavaScript 相关库：
+
+- [js/encoder](/home/zbj/dhi-format/js/encoder) ：编码库
+- [js/decoder](/home/zbj/dhi-format/js/decoder) ：解码库
+
+当前这两个库提供了基础项目结构和最小 API，便于后续继续补充真正的二进制编码与解码实现。
